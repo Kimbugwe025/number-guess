@@ -20,9 +20,9 @@ const result = great();
 console.log(result);*/
 const bill = (products,tax)=>{
     let total = 0;
-     for(let i =0; i< products.lenth;i++){
+    for(let i =0; i< products.lenth;i++){
         total += products[i] + products [i] * tax;
     }
-      return total;
+    return total;
 };
-  console.log(bill([10,15,30],0.2));
+console.log(bill([10,15,30],0.2));
